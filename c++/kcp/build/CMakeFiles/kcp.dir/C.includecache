@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/hgfs/ubuntu/vip/20210313-kcp/kcp_learn/ikcp.c
+ikcp.h
+/mnt/hgfs/ubuntu/vip/20210313-kcp/kcp_learn/ikcp.h
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+stdio.h
+-
+
+/mnt/hgfs/ubuntu/vip/20210313-kcp/kcp_learn/ikcp.h
+stddef.h
+-
+stdlib.h
+-
+assert.h
+-
+sys/types.h
+-
+sys/inttypes.h
+-
+stdint.h
+-
+
