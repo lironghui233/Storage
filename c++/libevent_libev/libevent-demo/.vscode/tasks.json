@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "libevent",
+			"command": "/usr/bin/gcc",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-I../libevent/include",
+				"-L../libevent/.libs",
+				"-levent"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: /usr/bin/gcc"
+		}
+	]
+}
